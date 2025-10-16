@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torm.ID | Rekomendasi PC/Laptop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-area">
+                <img src="Logo.png" alt="Logo Torm.ID" class="logo">
+                <h1>Torm.ID</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="main.html" class="active">Produk</a></li>
+                <li><a href="about.html">Tentang</a></li>
+            </ul>
+        </nav>
+    <h1>Rekomendasi PC & Laptop</h1>
+    <p>Pilih kebutuhan dan kisaran budget untuk melihat rekomendasi!</p>
+    </header>
+
+  <main>
+    <section class="form-section">
+      <label for="budget">Pilih Kisaran Budget:</label>
+      <select id="budget">
+        <option value="">Pilih Budget</option>
+        <option value="range1">Rp 9.000.000 - Rp 13.000.000</option>
+        <option value="range2">Rp 13.000.001 - Rp 17.000.000</option>
+        <option value="range3">Di atas Rp 17.000.000</option>
+      </select>
+
+      <label for="kebutuhan">Pilih Kebutuhan:</label>
+      <select id="kebutuhan">
+        <option value="gaming">Gaming</option>
+        <option value="editing">Editing</option>
+        <option value="office">Office</option>
+      </select>
+
+      <label for="tipe">Pilih Tipe:</label>
+      <select id="tipe">
+        <option value="pc">PC</option>
+        <option value="laptop">Laptop</option>
+      </select>
+
+      <button id="tombol">Dapatkan Rekomendasi</button>
+    </section>
+
+    <section id="hasil" class="hasil-section"></section>
+  </main>
+
+  <script src="script.js"></script>
+    <footer>
+        © 2025 Torm.ID | Email: contact@torm.id | WhatsApp: +62 821-1268-2851
+    </footer>
+</body>
+</html>
